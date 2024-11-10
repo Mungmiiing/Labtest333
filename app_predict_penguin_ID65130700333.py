@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 
 # Load the model and encoders
-#with open('model_penguin_65130700333.pkl', 'rb') as file:
-#   model, species_encoder, island_encoder, sex_encoder = pickle.load(file)
+with open('model_penguin_65130700333.pkl', 'rb') as file:
+   model, species_encoder, island_encoder, sex_encoder = pickle.load(file)
 
 # Create a title
 st.title("Penguin Species Prediction")
