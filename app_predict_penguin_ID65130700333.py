@@ -10,12 +10,12 @@ with open('model_penguin_65130700333.pkl', 'rb') as file:
 st.title("Penguin Species Prediction")
 
 # Get user input
-#island = st.selectbox("Island", ["Torgersen", "Biscoe", "Dream"])
-#culmen_length = st.number_input("Culmen Length (mm)", min_value=0.0, max_value=100.0, value=37.0)
-#culmen_depth = st.number_input("Culmen Depth (mm)", min_value=0.0, max_value=100.0, value=19.3)
-#flipper_length = st.number_input("Flipper Length (mm)", min_value=0.0, max_value=300.0, value=192.3)
-#body_mass = st.number_input("Body Mass (g)", min_value=0.0, max_value=6000.0, value=3750)
-#sex = st.selectbox("Sex", ["MALE", "FEMALE"])
+island = st.selectbox("Island", ["Torgersen", "Biscoe", "Dream"])
+culmen_length = st.number_input("Culmen Length (mm)", min_value=0.0, max_value=100.0, value=37.0)
+culmen_depth = st.number_input("Culmen Depth (mm)", min_value=0.0, max_value=100.0, value=19.3)
+flipper_length = st.number_input("Flipper Length (mm)", min_value=0.0, max_value=300.0, value=192.3)
+body_mass = st.number_input("Body Mass (g)", min_value=0.0, max_value=6000.0, value=3750)
+sex = st.selectbox("Sex", ["MALE", "FEMALE"])
 
 # Prepare input data
 #x_new = pd.DataFrame({'island': [island],
