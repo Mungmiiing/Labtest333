@@ -19,11 +19,11 @@ st.title("Penguin Species Prediction")
 
 # Prepare input data
 #x_new = pd.DataFrame({'island': [island],
-                       'culmen_length_mm': [culmen_length],
-                       'culmen_depth_mm': [culmen_depth],
-                       'flipper_length_mm': [flipper_length],
-                       'body_mass_g': [body_mass],
-                       'sex': [sex]})
+  #                     'culmen_length_mm': [culmen_length],
+  #                     'culmen_depth_mm': [culmen_depth],
+   #                    'flipper_length_mm': [flipper_length],
+    #                   'body_mass_g': [body_mass],
+     #                  'sex': [sex]})
 
 # Predict the species
 #if st.button("Predict"):
