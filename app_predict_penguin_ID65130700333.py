@@ -26,7 +26,7 @@ x_new = pd.DataFrame({'island': [island],
                      'sex': [sex]})
 
 # Predict the species
-#if st.button("Predict"):
-    #y_pred_new = model.predict(x_new)
-    #predicted_species = species_encoder.inverse_transform(y_pred_new)[0]
-    #st.write("Predicted Species:", predicted_species)
+if st.button("Predict"):
+    y_pred_new = model.predict(x_new)
+    predicted_species = species_encoder.inverse_transform(y_pred_new)[0]
+    st.write("Predicted Species:", predicted_species)
