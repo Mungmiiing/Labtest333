@@ -28,5 +28,5 @@ x_new = pd.DataFrame({'island': [island],
 # Predict the species
 if st.button("Predict"):
     y_pred_new = model.predict(x_new)
-    predicted_species = species_encoder.inverse_transform(y_pred_new)[0]
-    st.write("Predicted Species:", predicted_species)
+    # predicted_species = species_encoder.inverse_transform(y_pred_new)[0]
+    st.write("Predicted Species:", y_pted_new)
